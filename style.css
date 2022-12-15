@@ -1,0 +1,58 @@
+/* Color Pallete:
+
+
+
+
+*/
+
+body {
+    margin:0;
+    padding: 0;
+    background-color: #285430;
+    color: #e6d5a5;
+}
+
+.title {
+    background-color: #e6d5a5;
+    color: #c5b358;
+    margin: 0;
+    padding: 1rem 2rem;
+    text-align: center
+    
+}
+
+.Childe {
+    background-color: #e6d5a5;
+    color: #285430;
+    margin: 4rem 3rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    box-shadow: 10px 10px 5px #000;
+    transition: .3s ease-in-out;
+    border-radius: 1rem;
+}
+
+.projectImage {
+    border-radius: 6rem;
+    
+}
+
+.helpMe {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+@media (min-width: 800px) {
+    body {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 90vh;
+        }
+    }
+    
+    .projectImage {
+    
+    }
+    
