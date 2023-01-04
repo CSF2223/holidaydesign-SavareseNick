@@ -85,6 +85,24 @@ body {
     border-radius: 1rem;
 }
 
+.yelan {
+    color: red;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+
+
+.Childe:hover {
+     transform: scale(1.05);
+}
+
+
+
+
 
 
 
@@ -105,5 +123,12 @@ body {
     
     .Childe {
         max-width: 30%;
+    }
+    
+    .yelan {
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        flex-wrap: wrap;
     }
 }
